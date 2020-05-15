@@ -44,15 +44,20 @@ export class Scoreboard extends React.Component {
           </div>
           <br />
         </header>
-        <img src="/typingcomputer.gif" />
-        <h1>Recent games:</h1>
+        <img className="typing" src="/typingcomputer.gif" />
+        <h1>Tic-Tac-Toe!</h1>
+        <h3>
+          Find a friend and take turns filling up the boxes until one player
+          wins!
+        </h3>
+        <h3>Recent games:</h3>
         {/* {List with previous games} */}
         <p>
           {this.state.scoreboard.map((leader, key) => {
             return (
               <p key={key}>
                 {" "}
-                <img src="/walldino.gif" />
+                <img className="dino" src="/walldino.gif" />
                 <br />
                 {leader}
               </p>
@@ -66,10 +71,10 @@ export class Scoreboard extends React.Component {
         <br />
         <img src="/batana1.gif" />
         <br />
-        <img src="/animation_09mer.gif" />
+        <img className="anime" src="/animation_09mer.gif" />
         <img src="/animation_04jup.gif" />
         <footer class="footer pt-80 pt-xs-60">
-          <img src="/boarder_barbwire1.gif" />
+          <img className="barbwire" src="/boarder_barbwire1.gif" />
 
           <div class="footer-container">
             <div class="copyright">
@@ -99,7 +104,7 @@ export class Scoreboard extends React.Component {
             </div>
             <br />
           </div>
-          <img src="/boarder_barbwire1.gif" />
+          <img className="barbwire" src="/boarder_barbwire1.gif" />
         </footer>{" "}
       </div>
     );

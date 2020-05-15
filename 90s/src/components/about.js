@@ -40,14 +40,17 @@ function About() {
           <br />
           <br />
 
-          <img src="cute_036.gif" />
+          <img className="cute" src="cute_036.gif" />
         </div>
         <div className="middle">
-          <h1>About Us</h1>
+          <h1>About</h1>
           <img src="gator4.gif" />
           <p>
-            This is the about page, click <a href="/scoreboard">HERE</a> to play
-            the game!
+            This website may look like it was made in the 90's, however, being
+            inspired by that decade, I decided to make an App that glorifies the
+            simplicity and beauty of those wonderful years. I have implemented a
+            Tic-Tac-Toe Game for you to play while browsing the awesome
+            aesthetics of the 1990's!
           </p>
           <img src="/clown_in_box.gif" />
         </div>
@@ -57,7 +60,7 @@ function About() {
           <br />
           <br />
 
-          <img src="cute_036.gif" />
+          <img className="cute" src="cute_036.gif" />
         </div>
       </div>
       <div className="skulls">
@@ -79,7 +82,7 @@ function About() {
       <br />
       <br />
       <footer class="footer pt-80 pt-xs-60">
-        <img src="/boarder_barbwire1.gif" />
+        <img className="barbwire" src="/boarder_barbwire1.gif" />
 
         <div class="footer-container">
           <div class="copyright">
@@ -109,7 +112,7 @@ function About() {
           </div>
           <br />
         </div>
-        <img src="/boarder_barbwire1.gif" />
+        <img className="barbwire" src="/boarder_barbwire1.gif" />
       </footer>{" "}
     </div>
   );

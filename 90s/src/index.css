@@ -8,6 +8,11 @@ body {
   background-image: url("/1galaxystarsbkg.gif");
 }
 
+@media screen and (max-width: 742px) {
+  img {
+    width: 50px;
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -25,6 +30,50 @@ div.nav {
   justify-content: center;
   margin-right: 25%;
   margin-left: 25%;
+}
+
+@media screen and (max-width: 742px) {
+  div.nav {
+    display: block;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  button {
+    size: 10px;
+  }
+  div.top-h1 img {
+    margin: 20px;
+    width: 75px;
+  }
+  img.lightning {
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 75px;
+  }
+  img.barbwire {
+    width: 200px;
+  }
+  img.anime {
+    width: 30px;
+  }
+  img.dino {
+    width: 20px;
+  }
+  img.cute {
+    width: 100px;
+  }
+  img.welcomegif {
+    width: 100px;
+  }
+  img.typing {
+    width: 100px;
+  }
+  div.penglibrary img {
+    width: 100px;
+  }
+  img.browser {
+    width: 75px;
+  }
 }
 
 h1.header {

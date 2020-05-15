@@ -181,19 +181,19 @@ export class Board extends React.Component {
                 })}
             </p>
           </div>
-          {winner && (
+          {
             <div className="board-footer">
               <button className="btn" onClick={this.handleBoardRestart}>
                 Start new game
               </button>
             </div>
-          )}
+          }
           <div className="penglibrary">
             <img src="/tux_computer_dig_md_clr.gif" />
             <img src="/bibliothecaresse-aan-kar.gif" />
           </div>
           <footer class="footer pt-80 pt-xs-60">
-            <img src="/boarder_barbwire1.gif" />
+            <img className="barbwire" src="/boarder_barbwire1.gif" />
 
             <div class="footer-container">
               <div class="copyright">
@@ -223,7 +223,7 @@ export class Board extends React.Component {
               </div>
               <br />
             </div>
-            <img src="/boarder_barbwire1.gif" />
+            <img className="barbwire" src="/boarder_barbwire1.gif" />
           </footer>{" "}
         </div>
       </>

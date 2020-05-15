@@ -28,12 +28,12 @@ function Home() {
         </div>
         <br />
       </header>
+      <img className="lightning" src="/LightL.gif" />
+      <img className="lightning" src="/LightR.gif" />
       <div className="top-h1">
-        <img src="/LightL.gif" />
         <img src="/hello.gif" />
         <img src="/welcome13d.gif" />
         <img src="/homeswrl_e0.gif" />
-        <img src="/LightR.gif" />
       </div>
       <div className="middle-content">
         <div className="left">
@@ -45,13 +45,13 @@ function Home() {
           <img src="monster-hugo.gif" />
         </div>
         <div className="middle">
-          <h1>90s Tic-Tac-Toe</h1>
+          <h1>90's Tic-Tac-Toe</h1>
           <img src="devil22t_anim.gif" />
           <p>
             This is the home page, click <a href="/scoreboard">HERE</a> to play
             the game!
           </p>
-          <img src="any_browser_computer.gif" />
+          <img className="browser" src="any_browser_computer.gif" />
         </div>
         <div className="right">
           <img src="new_must_use.gif" />
@@ -70,18 +70,11 @@ function Home() {
         <img src="spinskul.gif" />
         <img src="spinskul.gif" />
         <img src="spinskul.gif" />
-        <img src="spinskul.gif" />
-        <img src="spinskul.gif" />
-        <img src="spinskul.gif" />
-        <img src="spinskul.gif" />
-        <img src="spinskul.gif" />
-        <img src="spinskul.gif" />
-        <img src="spinskul.gif" />
       </div>
       <br />
       <br />
       <footer class="footer pt-80 pt-xs-60">
-        <img src="/boarder_barbwire1.gif" />
+        <img className="barbwire" src="/boarder_barbwire1.gif" />
 
         <div class="footer-container">
           <div class="copyright">
@@ -111,7 +104,7 @@ function Home() {
           </div>
           <br />
         </div>
-        <img src="/boarder_barbwire1.gif" />
+        <img className="barbwire" src="/boarder_barbwire1.gif" />
       </footer>{" "}
     </div>
   );
