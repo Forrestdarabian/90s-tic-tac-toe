@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -48,8 +48,8 @@ function Home() {
           <h1>90's Tic-Tac-Toe</h1>
           <img src="devil22t_anim.gif" />
           <p>
-            This is the home page, click <a href="./scoreboard">HERE</a> to play
-            the game!
+            This is the home page, click <Link to="/scoreboard">HERE</Link> to
+            play the game!
           </p>
           <img className="browser" src="any_browser_computer.gif" />
         </div>
