@@ -187,14 +187,16 @@ export class Board extends React.Component {
           }
           <div className="penglibrary">
             <img src="/tux_computer_dig_md_clr.gif" />
-            <p>CLICK FOR MUSIC -></p>
+            <p>
+              CLICK FOR MUSIC
+              <br /> ->
+            </p>
             <iframe
               width="100"
               height="100"
               src="https://www.youtube.com/embed/ckCrkuh9_GQ"
               frameborder="10"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
             ></iframe>
             <img src="/bibliothecaresse-aan-kar.gif" />
           </div>
