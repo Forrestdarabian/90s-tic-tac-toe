@@ -194,7 +194,7 @@ export class Board extends React.Component {
             <iframe
               width="100"
               height="100"
-              src="https://www.youtube.com/embed/ckCrkuh9_GQ"
+              src="https://www.youtube.com/embed/ckCrkuh9_GQ?playsinline=1"
               frameborder="10"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
