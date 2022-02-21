@@ -87,7 +87,7 @@ function About() {
         <div class="footer-container">
           <div class="copyright">
             <p>
-              © 2020
+              © 2022
               <a>
                 <b> Forrest Darabian </b>
               </a>
