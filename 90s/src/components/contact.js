@@ -92,11 +92,6 @@ function Contact() {
                 Contact Me
               </a>{" "}
             </li>
-            <li>
-              <a href="https://www.forrestdarabian.com/">
-                <i class="fa-angle-double-right"></i>Developers Site
-              </a>
-            </li>
           </div>
           <br />
         </div>
